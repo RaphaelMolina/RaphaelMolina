@@ -2,7 +2,7 @@
 
 <br>
 
-### :computer: Eu sou o Raphael, estou cursando Ciência de Dados na Univesp. Sou formado em Análise e Desenvolvimento de Sistemas pelo Centro Universitário Módulo. E estou em busca de uma oportunidade de trabalho na área de dados ou desenvolvimento de sistemas. :computer:
+### :computer: Eu sou o Raphael, estou cursando Ciência de Dados, sou formado em Análise e Desenvolvimento de Sistemas. E estou em busca de uma oportunidade de trabalho na área de dados ou desenvolvimento de sistemas. :computer:
 <br>
 <br>
 
