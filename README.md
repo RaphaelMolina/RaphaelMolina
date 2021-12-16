@@ -1,10 +1,7 @@
 # <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="30px">Olá, Seja bem-vindo!
 
-<br>
-
 ### :computer: Eu sou o Raphael, estou cursando Ciência de Dados, sou formado em Análise e Desenvolvimento de Sistemas. E estou em busca de uma oportunidade de trabalho na área de dados ou desenvolvimento de sistemas.
 ### Tenho um pouco de conhecimento em Python, SQL, PHP, Java, JavaScript, CSS, Bootstrap, WordPress, Power BI, Git e Guithub.
-
 ### Preciso apenas de uma oportunidade para demonstrar meu potencial. :computer:
 <br>
 <br>
