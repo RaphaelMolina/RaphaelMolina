@@ -1,0 +1,17 @@
+name: GitHub README Stats
+
+on:
+  schedule:
+    - cron: '25 12 * * *' # Roda todos os dias à meia-noite
+  workflow_dispatch: # Permite rodar manualmente
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: readme-tools/github-readme-stats-action@v1
+        with:
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
+          output_dir: ./stats-cards
+          # Você pode customizar os cards aqui usando os mesmos parâmetros
+          options: 'username=RaphaelMolina&show_icons=true&theme=gruvbox'
