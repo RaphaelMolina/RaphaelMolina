@@ -2,16 +2,39 @@ name: GitHub README Stats
 
 on:
   schedule:
-    - cron: '25 12 * * *' # Roda todos os dias à meia-noite
-  workflow_dispatch: # Permite rodar manualmente
+    - cron: '0 0 * * *' # Roda todos os dias à meia-noite
+  workflow_dispatch: # Permite rodar manualmente sempre que você quiser
 
 jobs:
   update-stats:
     runs-on: ubuntu-latest
     steps:
-      - uses: readme-tools/github-readme-stats-action@v1
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      # 1º Card: Estatísticas Gerais (Gera o arquivo github-readme-stats.svg)
+      - name: Gerar Card de Estatísticas
+        uses: readme-tools/github-readme-stats-action@v1
         with:
-          gh_token: ${{ secrets.GITHUB_TOKEN }}
-          output_dir: ./stats-cards
-          # Você pode customizar os cards aqui usando os mesmos parâmetros
+          token: ${{ secrets.GITHUB_TOKEN }}
+          card: stats
+          path: ./stats-cards/github-readme-stats.svg
           options: 'username=RaphaelMolina&show_icons=true&theme=gruvbox'
+
+      # 2º Card: Idiomas Mais Usados (Gera o arquivo top-langs.svg)
+      - name: Gerar Card de Linguagens
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          card: top-langs
+          path: ./stats-cards/top-langs.svg
+          options: 'username=RaphaelMolina&theme=dark&hide_langs_below=1'
+
+      # Configura o Git e commita os novos SVGs de volta no seu repositório
+      - name: Commit e Push das imagens atualizadas
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add ./stats-cards/*.svg
+          git commit -m "docs: atualizando estatísticas do perfil [skip ci]" || exit 0
+          git push
