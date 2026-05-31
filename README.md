@@ -5,8 +5,14 @@
 <br>
 <br>
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=RaphaelMolina&show_icons=true&theme=gruvbox)](https://github.com/RaphaelMolina/github-readme-stats)
-<a href="https://github.com/RaphaelMolina"><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RaphaelMolina&theme=dark&hide_langs_below=1"/></a>
+<p align="left">
+  <a href="https://github.com/RaphaelMolina">
+    <img src="./stats-cards/github-readme-stats.svg" alt="Raphael's GitHub stats" />
+  </a>
+  <a href="https://github.com/RaphaelMolina">
+    <img src="./stats-cards/top-langs.svg" alt="Top Langs" height="195px" />
+  </a>
+</p>
 
 ![Minhas Estatísticas](./stats-cards/github-readme-stats.svg)
 
