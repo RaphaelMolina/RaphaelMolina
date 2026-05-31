@@ -5,14 +5,7 @@
 <br>
 <br>
 
-<p align="left">
-  <a href="https://github.com/RaphaelMolina">
-    <img src="./stats-cards/github-readme-stats.svg" alt="Raphael's GitHub stats" />
-  </a>
-  <a href="https://github.com/RaphaelMolina">
-    <img src="./stats-cards/top-langs.svg" alt="Top Langs" height="195px" />
-  </a>
-</p>
+[![Estatísticas do GitHub](./stats-cards/github-readme-stats.svg)](https://github.com/RaphaelMolina) <a href="https://github.com/RaphaelMolina"><img align="left" src="./stats-cards/top-langs.svg"/></a>
 
 ![Minhas Estatísticas](./stats-cards/github-readme-stats.svg)
 
