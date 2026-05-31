@@ -5,9 +5,9 @@
 <br>
 <br>
 
-[![Estatísticas do GitHub](./stats-cards/github-readme-stats.svg)](https://github.com/RaphaelMolina) <a href="https://github.com/RaphaelMolina"><img align="left" src="./stats-cards/top-langs.svg"/></a>
+[![Estatísticas do GitHub](./stats-cards/github-readme-stats.svg)](https://github.com/RaphaelMolina) 
 
-![Minhas Estatísticas](./stats-cards/github-readme-stats.svg)
+<a href="https://github.com/RaphaelMolina"><img align="left" src="./stats-cards/top-langs.svg"/></a>
 
 <br>
 
